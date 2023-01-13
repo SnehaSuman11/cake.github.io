@@ -1,0 +1,296 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar table th a{
+    text-decoration-line: none;
+    color: plum;
+    padding: 3px 3px;
+}
+.navbar table th a:hover{
+    background-color:antiquewhite;
+}
+.Home{
+    position: relative;
+}
+.first{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-stretch:ultra-expanded;
+    color:crimson;
+    font-size: 5vw;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 10px;
+    left: 60px;
+}
+.second{
+    text-align: center;
+    font-family:cursive;
+    font-stretch:ultra-expanded;
+    color:crimson;
+    font-size: 5vw;
+    position: absolute;
+    top: 100px;
+    left: 60px;
+}
+.third{
+    text-align: center;
+    font-family:cursive;
+    color:crimson;
+    font-stretch:ultra-expanded;
+    font-size: 2vw;
+    position: absolute;
+    top: 190px;
+    left: 60px;
+}
+.Home .btn input[type="submit"] {
+    border: 0px;
+    background-color: aquamarine;
+    color:blue; 
+    text-align: center;
+    width: 20%;
+    height: 10%;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 2vw;
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.About{
+    background-color:antiquewhite;
+    position: relative;
+    top: 50px;
+}
+.About h2{
+    font-size: 4vw;
+    position: absolute;
+    text-align: center;
+    font-family:cursive;
+    top: 50px;
+    left: 400px;
+}
+.About p{
+    text-align:justify;
+    font-family:cursive;
+    position: absolute;
+    top: 180px;
+    left: 400px;
+    font-size: 1vw;
+    letter-spacing: 2px;
+
+}
+.slider{
+    width:100%;
+    height:200px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    margin: 20px auto;
+
+}
+#img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+#ex h3{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    font-size: 200%;
+    top: 60px;
+    background-color: aliceblue;
+
+}
+#ex h3 span{
+    color: palevioletred;
+}
+#ex table{
+    position: relative; 
+    top: 60px;
+
+}
+#ex table img{
+    width: 20%;
+    height: 20%;
+    top:50px;
+}
+#ex table th{
+    text-align: center;
+    font-size: 2vw;
+    position: relative;
+}
+#Product h2{
+    text-align: center;
+    top: 110px;
+    position: relative;
+    width: 100%;
+    font-size: 200%;
+    color:purple; 
+    background-color: aliceblue;
+
+}
+.myp{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 5px;
+    background-color:whitesmoke;
+    position:relative;
+    top: 130px;
+    justify-content: center;
+    align-content:center;
+}
+.myp > div{
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color:burlywood;
+
+}
+.myp img{
+    will-change: transform;
+    transition: transform 0.3s;
+    width: 100%;
+}
+.myp:hover img{
+    transform: scale(1.111);
+}
+.offer img{
+    padding: 10px;
+    position: absolute;
+    margin: 20px auto;
+    width: 100%;
+    height: 50%;
+    top: 2750px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+.offer h2{
+    position: relative;
+    top:230px;
+    left: 90px;
+    font-size: 5vw;
+
+}
+.offer .f{
+    color: palevioletred;
+}
+.offer h5{
+    position: relative;
+    top:230px;
+    left: 90px;
+    font-size: 2vw;
+
+}
+.text{
+    position: relative;
+    top:250px;
+    left: 90px;
+    width: 60%;
+    border-spacing: 10px;
+}
+.text .sub input[type="submit"]{
+    position: relative;
+    width: 50%;
+    height: 10%;
+    padding: 10px;
+    text-align: center;
+    background-color: darkslateblue;
+    color: black;
+    font-size: 1vw;
+    cursor: pointer;
+}
+.text td input[type="text"]{
+    position: relative;
+    width: 95%;
+    height: 10%;
+    padding: 10px;
+    font-size: 2vw;
+}
+#err_message{
+    margin-bottom:20px;
+    position: relative;
+    top:360px;
+    left: 90px;
+    padding:0px;
+    font-size :1vw;
+    color:red;
+}
+.contact{
+    background-color: dimgray;
+    position: absolute;
+    top: 440%;
+    width: 100%;
+    height: 50%;
+
+}
+.contact h5{
+    position: relative;
+    color: antiquewhite;
+    font-size: 3vw;
+    top: 15%;
+    left: 70%;
+}
+.contact p{
+    position: relative;
+    color: antiquewhite;
+    font-size: 2vw;
+    top: 15%;
+    left: 70%;
+}
+.ad{
+    position: relative;
+    top: 420px;
+    left: 2%;
+}
+.ad h6{
+    position: relative;
+    color:crimson;
+    font-size: 4vw;
+    top: 1%;
+    left: 2%;
+
+}
+.ad h6 span{
+    position: relative;
+    color:teal;
+    font-size: 4vw;
+}
+.ad p{
+    position: relative;
+    left: 2%;
+    margin:  auto 75vw 2vw 1vw;
+    line-height: 150%;
+    font-size: 1.2vw;
+    text-align: justify;
+}
+.link{
+    position: relative;
+    left: 2%;
+    top: 1vw;
+}
+.link h6{
+    position: relative;
+    color:wheat ;
+    font-size: 3vw;
+    top: 7.9vw ;
+    left: 40%;
+}
+.link ul{
+    position: relative;
+    color:whitesmoke;
+    font-size: 2vw;
+    top: 8vw ;
+    left: 40%;
+}
+.link ul a{
+    text-decoration-line: none;
+    color: thistle;
+}
